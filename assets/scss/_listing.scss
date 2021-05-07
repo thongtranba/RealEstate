@@ -1,0 +1,37 @@
+.header{
+  background: #0B002A;
+  color: white;
+  // check overflow and using float left for logo and float right for navigation
+  overflow: auto;
+  padding: 20px 15px;
+  .logo {
+    float: left;
+  }
+  nav{
+    float: right;
+    a{
+      color: white;
+      text-decoration: none;
+      padding: 7px 20px;
+      text-transform: capitalize;
+      font-weight: 300;
+      font-size: .9rem;
+
+      &:hover{
+        color: #FF7B8F;
+        font-weight: 500;
+      }
+      &.register-btn{
+        background: $pink;
+        text-align: center;
+        border-radius: 5px;
+        &:hover{
+          color: $pink;
+          background: white;
+        }
+
+      }
+    }
+  }
+
+}
